@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShoreSquad - Rally your crew, track weather, and hit the next beach cleanup with our dope map app!">
+    <meta name="keywords" content="beach cleanup, environmental action, weather tracking, community, eco-friendly">
+    <title>ShoreSquad - Rally Your Crew for Beach Cleanups</title>
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1 class="logo">
+                        <i class="fas fa-water" aria-hidden="true"></i>
+                        ShoreSquad
+                    </h1>
+                </div>
+                
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                  <ul class="nav-menu" role="menubar">
+                    <li role="none"><a href="#features" class="nav-link" role="menuitem">Features</a></li>
+                    <li role="none"><a href="#next-cleanup" class="nav-link" role="menuitem">Next Cleanup</a></li>
+                    <li role="none"><a href="#how-it-works" class="nav-link" role="menuitem">How It Works</a></li>
+                    <li role="none"><a href="#community" class="nav-link" role="menuitem">Community</a></li>
+                    <li role="none"><a href="#join" class="nav-link cta-button" role="menuitem">Join the Squad</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2 id="hero-title" class="hero-title">
+                        Rally Your Crew for Epic Beach Cleanups! 🌊
+                    </h2>
+                    <p class="hero-subtitle">
+                        Track weather, find cleanup spots, and make eco-action fun with your squad. 
+                        Join the movement to keep our shores pristine!
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" id="get-started-btn">
+                            <i class="fas fa-rocket" aria-hidden="true"></i>
+                            Get Started
+                        </button>
+                        <button class="btn btn-secondary" id="watch-demo-btn">
+                            <i class="fas fa-play" aria-hidden="true"></i>
+                            Watch Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="weather-widget" role="img" aria-label="Weather display showing sunny conditions">
+                        <div class="weather-card">
+                            <i class="fas fa-sun weather-icon"></i>
+                            <span class="weather-temp">72°F</span>
+                            <span class="weather-desc">Perfect for cleanup!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-wave"></div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features" aria-labelledby="features-title">
+            <div class="container">
+                <h2 id="features-title" class="section-title">Why ShoreSquad Rocks</h2>
+                <div class="features-grid">
+                    <article class="feature-card" tabindex="0">
+                        <div class="feature-icon">
+                            <i class="fas fa-cloud-sun" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Smart Weather Tracking</h3>
+                        <p class="feature-description">
+                            Get real-time weather updates and perfect timing alerts for your beach cleanup adventures.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card" tabindex="0">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Interactive Maps</h3>
+                        <p class="feature-description">
+                            Discover cleanup hotspots, share locations, and navigate to the beaches that need you most.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card" tabindex="0">
+                        <div class="feature-icon">
+                            <i class="fas fa-users" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Squad Goals</h3>
+                        <p class="feature-description">
+                            Rally your friends, track group progress, and celebrate eco-wins together.
+                        </p>
+                    </article>                </div>
+            </div>
+        </section>
+
+        <!-- Next Cleanup Location Section -->
+        <section id="next-cleanup" class="next-cleanup" aria-labelledby="next-cleanup-title">
+            <div class="container">
+                <h2 id="next-cleanup-title" class="section-title">Next Beach Cleanup</h2>
+                <div class="cleanup-info">
+                    <div class="cleanup-details">
+                        <div class="cleanup-card">
+                            <div class="cleanup-header">
+                                <i class="fas fa-map-marker-alt cleanup-icon" aria-hidden="true"></i>
+                                <h3 class="cleanup-location">Pasir Ris Beach</h3>
+                            </div>
+                            <div class="cleanup-meta">
+                                <div class="cleanup-item">
+                                    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                    <span>Next Available: Check Weather</span>
+                                </div>
+                                <div class="cleanup-item">
+                                    <i class="fas fa-clock" aria-hidden="true"></i>
+                                    <span>Duration: 2-3 hours</span>
+                                </div>
+                                <div class="cleanup-item">
+                                    <i class="fas fa-users" aria-hidden="true"></i>
+                                    <span>Squad Size: 5-15 people</span>
+                                </div>
+                            </div>
+                            <p class="cleanup-description">
+                                Join us at beautiful Pasir Ris Beach for our next community cleanup! This popular spot needs regular attention to keep it pristine for both marine life and beachgoers.
+                            </p>
+                            <div class="cleanup-actions">
+                                <button class="btn btn-primary" id="join-cleanup-btn">
+                                    <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                                    Join This Cleanup
+                                </button>
+                                <button class="btn btn-secondary" id="get-directions-btn">
+                                    <i class="fas fa-directions" aria-hidden="true"></i>
+                                    Get Directions
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cleanup-map">
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.659885117691!2d103.95337447584248!3d1.3814970606230926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3e04b09c82b5%3A0x6b5e3b0e6b0e6b0e!2sNext%20Cleanup%20-%20Pasir%20Ris%20Beach!5e0!3m2!1sen!2ssg!4v1717326000000!5m2!1sen!2ssg&markers=color:red%7Clabel:Next%20Cleanup%7C1.381497,103.955574"
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Next Beach Cleanup Location - Pasir Ris Beach"
+                                aria-label="Google Maps showing next cleanup location at Pasir Ris Beach, coordinates 1.381497, 103.955574">
+                            </iframe>
+                        </div>
+                        <div class="map-caption">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            <span>Next Cleanup: Pasir Ris Beach (1.381497, 103.955574)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works" aria-labelledby="how-it-works-title">
+            <div class="container">
+                <h2 id="how-it-works-title" class="section-title">How It Works</h2>
+                <div class="steps-container">
+                    <div class="step" data-step="1">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Check the Vibes</h3>
+                        <p class="step-description">See weather conditions and find the perfect cleanup day</p>
+                    </div>
+                    <div class="step" data-step="2">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Rally Your Squad</h3>
+                        <p class="step-description">Invite friends and coordinate your beach cleanup mission</p>
+                    </div>
+                    <div class="step" data-step="3">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Hit the Beach</h3>
+                        <p class="step-description">Use our map to navigate and make a real environmental impact</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Stats -->
+        <section id="community" class="community-stats" aria-labelledby="community-title">
+            <div class="container">
+                <h2 id="community-title" class="section-title">Our Impact Together</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1247">0</span>
+                        <span class="stat-label">Beaches Cleaned</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="8934">0</span>
+                        <span class="stat-label">Squad Members</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="45">0</span>
+                        <span class="stat-label">Tons of Trash Removed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="join" class="cta-section" aria-labelledby="cta-title">
+            <div class="container">
+                <h2 id="cta-title" class="cta-title">Ready to Make Waves?</h2>
+                <p class="cta-subtitle">Join thousands of young eco-warriors making a difference</p>
+                <form class="signup-form" aria-label="Sign up for ShoreSquad">
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Enter your email" 
+                            required 
+                            aria-describedby="email-error"
+                        >
+                        <span id="email-error" class="error-message" role="alert"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">
+                        Join the Squad <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">
+                        <i class="fas fa-water" aria-hidden="true"></i>
+                        ShoreSquad
+                    </h3>
+                    <p class="footer-tagline">Making beach cleanups cool, one wave at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#api">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#support">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul class="social-links">
+                            <li><a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" aria-label="Follow us on TikTok"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ShoreSquad. Making waves for a cleaner planet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>
